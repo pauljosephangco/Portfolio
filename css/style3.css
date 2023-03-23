@@ -1,0 +1,309 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body 
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    min-height: 100vh;
+    background: lightblue;
+}
+.full {
+    position: relative;
+	width: 100%;
+    max-width:1000px;
+    min-width: 100px;
+    display: grid;
+    background: #f0f0f1;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+
+.full .left
+{
+    position: relative;
+    background: #043959;
+    padding: 40px;
+}
+.full .left a{
+    font-size: 18px;
+    display: block;
+    background-color: #fff;
+    padding: 10px 10px;
+    width: fit-content;
+    text-decoration: none;
+    border-radius: 4px 4px 4px 4px;
+    margin-top: 30px;
+}
+.profile
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2); 
+}
+
+
+.profile .img
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+.profile .img img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.profile h2
+{
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+.profile h2 span
+{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+.contact
+{
+    padding-top: 40px;
+    text-align: center;
+}
+.title
+{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.contact ul
+{
+    position: relative;
+}
+.contact ul li
+{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+    color: #fff;
+}
+.contact ul li span
+{
+    color: #fff;
+    font-weight: 300;
+}
+.contact .education li
+{
+    margin-bottom: 15px;
+}
+.contact .education h5
+{
+    color: #fff;
+    font-weight: 100;
+}
+.contact .education h4:nth-child(2)
+{
+    color: #fff;
+    font-weight: 100;
+}
+.contact .education h4
+{
+    color: #fff;
+    font-weight: 100;
+}
+h3
+{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.contact .language .percent
+{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    display: block;
+    margin-top: 5px;
+}
+.contact .language .percent div
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+.full .right
+{
+    position: relative;
+    padding: 0; 
+    margin: 10px;
+}
+.right 
+{
+    padding: 0;
+    position: absolute;
+    text-align: center; 
+    margin-bottom: 1000px; 
+    margin-right: 200px; 
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, seri
+
+}
+.Dot
+{
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    margin-bottom: 850px; 
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 200px;
+}
+.About
+{
+    padding: 0;
+    text-align: left;
+    position: absolute;
+    margin-bottom: 650px; 
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 345px;
+}
+.Experience 
+{
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    margin-bottom: 400px;
+    margin-right: 180px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+.list
+{
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    margin-bottom: 250px;
+    margin-right: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+.Skills
+{
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    margin-bottom: 100px;
+    margin-right: 180px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-small;
+}
+.Soft
+{
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 60px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Hard
+{
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    margin-bottom: 100px;
+    margin-left: 500px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-small;
+}
+.Hart
+{
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 600px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Achievements
+{
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    margin-top: 180px;
+    margin-left: 270px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-small;
+}
+.Ach
+{
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    margin-top: 350px;
+    margin-right: 60px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.achieve
+{
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    margin-top: 350px;
+    margin-left: 600px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Hobbies
+{
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    margin-top: 500px;
+    margin-left: 270px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-small;
+}
+.Hob
+{
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    margin-top: 700px;
+    margin-right: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50%;
+}
+.Bob
+{
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    margin-top: 700px;
+    margin-left: 500px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50%;
+}

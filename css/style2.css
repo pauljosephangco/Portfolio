@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(../image/onepiece.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    height: 100vh;
+}
+a{
+    font-size: 18px;
+    display: block;
+    background-color: #fff;
+    padding: 10px 10px;
+    width: fit-content;
+    text-decoration: none;
+    border-radius: 4px 4px 4px 4px;
+}
+.container{
+    height: 50vh;
+    position: relative;
+}
+.container video {
+    height: 50vh;
+    width: 100%;
+
+}
+.text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #000;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 45px;
+    font-weight: 900;
+    mix-blend-mode: multiply;
+}
+main{
+    width: 100%;
+    height: calc(100vh - 60px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+main .main-index h1{
+    font-size: 90px;
+    line-height: 106px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+main .main-bg h1 {
+    font-size: 30px;
+    line-height: 50px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-weight: 400;
+}
+main .main-bg img {
+    width: 75px;
+    height: 100px;
+    float: left;
+    padding: 20px 10px;
+}
+main .main-bg ul {
+    float: left;
+    position: relative;
+    padding: 10px 20px;
+}
+main .main-bg ul li {
+    display: block;
+    font-family: Arial;
+    color: #fff;
+    padding: 5px 0;
+    text-decoration: none;
+}
+main .main-bg p {
+    font-size: 18px;
+    line-height: 30px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 10px;
+}
+
